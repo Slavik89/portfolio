@@ -10,3 +10,15 @@ nav ul{
 a, a:hover {
     text-decoration: none;
 }
+
+#header{    
+    padding-left: 10px;    
+    left: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #1d3763;
+    z-index: 999;
+}
