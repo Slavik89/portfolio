@@ -1,5 +1,5 @@
 .container{
-    width: 940px;
+/*    width: 940px;*/
     margin: 0 auto;
 }
 
@@ -7,18 +7,40 @@ nav ul{
     list-style: none;    
 }
 
+/*
 a, a:hover {
     text-decoration: none;
 }
+*/
 
-#header{    
+#header{  
+    
     padding-left: 10px;    
     left: 0;
     padding-bottom: 50px;
     padding-top: 50px;
+    padding-right: 70px;
     position: fixed;
     right: 0;
     top: 0;
     background-color: #1d3763;
-    z-index: 999;
+    z-index: 5;
+    }
+
+div nav ul li a{
+    float: left;
+    position: relative;
+    list-style: none;    
+    padding-top: 50px;
+    padding-right: 50px;
+    font-size; 1em;
+    z-index: 10;
+    text-decoration: none;
+    color: darkkhaki;
 }
+
+#wrapper{
+    width: 100 %;
+}
+
+
