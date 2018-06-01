@@ -61,10 +61,7 @@ div header nav ul li a:hover {
 */
     
     background-color: rgba(255,255,255,.1);
-    opacity: 1;
-
-        
-    
+    opacity: 1;           
 }
 
 #wrapper{
@@ -74,6 +71,17 @@ div header nav ul li a:hover {
 .header__home-link {
     margin-right: 120px;
     float: left;
+}
+
+#font{
+    height: 430px;
+    width: 100%;
+    background: url(design-desk-display-313690.jpg) no-repeat;
+    position: absolute;
+    left: 200px;
+    right: 20px;
+    top: 0;
+    bottom: 0;
 }
 
 
