@@ -17,30 +17,65 @@ a, a:hover {
     
     padding-left: 10px;    
     left: 0;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-top: 25px;
     padding-right: 70px;
     position: fixed;
     right: 0;
     top: 0;
     background-color: #1d3763;
-    z-index: 5;
+    z-index: 5;    
     }
 
-div nav ul li a{
+div header nav ul li a{
+    float: left;    
+    list-style: none;        
+    margin-right: 70px;
+    font-size: 18px;
+    z-index: 10;
+    text-decoration: none;
+    color: darkkhaki; 
+    
+    border-radius: 25px;
+    padding: 10px 15px;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: background-color,opacity;
+    transition-property: background-color,opacity;
+    
+}
+
+div header nav ul li a:hover {
+/*
     float: left;
-    position: relative;
-    list-style: none;    
-    padding-top: 50px;
-    padding-right: 50px;
-    font-size; 1em;
+    
+    list-style: none;        
+    padding-right: 100px;
+    font-size: 18px;
     z-index: 10;
     text-decoration: none;
     color: darkkhaki;
+    opacity: 0.2;
+
+    line-height: 1.15;
+*/
+    
+    background-color: rgba(255,255,255,.1);
+    opacity: 1;
+
+        
+    
 }
 
 #wrapper{
     width: 100 %;
 }
+
+.header__home-link {
+    margin-right: 120px;
+    float: left;
+}
+
+
 
 
