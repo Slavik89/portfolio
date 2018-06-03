@@ -19,18 +19,20 @@ a, a:hover {
     left: 0;
     padding-bottom: 25px;
     padding-top: 25px;
-    padding-right: 70px;
+    padding-right: 20px;
     position: fixed;
     right: 0;
     top: 0;
     background-color: #1d3763;
-    z-index: 5;    
+    z-index: 5; 
+    
+    
     }
 
-div header nav ul li a{
+#nav a{
     float: left;    
     list-style: none;        
-    margin-right: 70px;
+    margin-right: 50px;
     font-size: 18px;
     z-index: 10;
     text-decoration: none;
@@ -45,43 +47,51 @@ div header nav ul li a{
     
 }
 
-div header nav ul li a:hover {
-/*
-    float: left;
-    
-    list-style: none;        
-    padding-right: 100px;
-    font-size: 18px;
-    z-index: 10;
-    text-decoration: none;
-    color: darkkhaki;
-    opacity: 0.2;
-
-    line-height: 1.15;
-*/
+#nav a:hover {
     
     background-color: rgba(255,255,255,.1);
     opacity: 1;           
 }
 
-#wrapper{
-    width: 100 %;
-}
+
 
 .header__home-link {
-    margin-right: 120px;
+    margin-right: 50px;
     float: left;
 }
 
 #font{
-    height: 430px;
+    height: 500px;
     width: 100%;
     background: url(design-desk-display-313690.jpg) no-repeat;
     position: absolute;
-    left: 200px;
-    right: 20px;
+    left: 0;    
     top: 0;
     bottom: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+}
+
+div#titles{   
+    border-right-color: darksalmon;
+    position: absolute;    
+    top:550px;    
+}
+
+div#titles h3{
+    font-family: Arial;
+    font-size: 26px;
+    padding-left: 40px;
+    color: orange;
+}
+
+div#titles li{
+    font-family: verdana;
+    font-size: 14px;
+    padding-left: 20px;
+    color: black;
 }
 
 
