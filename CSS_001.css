@@ -7,12 +7,6 @@ nav ul{
     list-style: none;    
 }
 
-/*
-a, a:hover {
-    text-decoration: none;
-}
-*/
-
 #header{  
     
     padding-left: 10px;    
@@ -50,8 +44,6 @@ a, a:hover {
     background-color: rgba(255,255,255,.1);
     opacity: 1;           
 }
-
-
 
 .header__home-link {
     margin-right: 50px;
@@ -93,8 +85,6 @@ a, a:hover {
     color: black;
 }
 
-
-
 #footer{
     position: absolute;
     top:1400px;
@@ -106,15 +96,16 @@ a, a:hover {
     text-align: center;       
 }
 
-
-
-
 #without_list_style{
     list-style-type: none;
 }
 
 #without_list_style li{
     float: left;
+}
+
+#without_list_style a:hover{
+    opacity: 0.5;
 }
 
 
