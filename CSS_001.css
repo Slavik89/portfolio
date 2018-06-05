@@ -24,9 +24,7 @@ a, a:hover {
     right: 0;
     top: 0;
     background-color: #1d3763;
-    z-index: 5; 
-    
-    
+    z-index: 5;        
     }
 
 #nav a{
@@ -74,25 +72,55 @@ a, a:hover {
     background-size: cover;    
 }
 
-div#titles{   
+.titles{   
+    
     border-right-color: darksalmon;
     position: absolute;    
     top:550px;    
 }
 
-div#titles h3{
+.titles h3{
     font-family: Arial;
     font-size: 26px;
     padding-left: 40px;
     color: orange;
 }
 
-div#titles li{
+.titles li{
     font-family: ProximaNova,Arial,Helvetica,sans-serif;
     font-size: 14px;
     padding-left: 20px;
     color: black;
 }
+
+
+
+#footer{
+    position: absolute;
+    top:1400px;
+    left: 0;
+    right: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: azure;
+    text-align: center;       
+}
+
+
+
+
+#without_list_style{
+    list-style-type: none;
+}
+
+#without_list_style li{
+    float: left;
+}
+
+
+
+
+
 
 
 
