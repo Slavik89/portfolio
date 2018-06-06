@@ -98,15 +98,17 @@ nav ul{
 
 #without_list_style{
     list-style-type: none;
+    display: none;
 }
 
 #without_list_style li{
     float: left;
 }
 
-#without_list_style a:hover{
+#without_list_style li a:hover, .opacity:hover{
     opacity: 0.5;
 }
+
 
 
 
