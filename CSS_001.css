@@ -85,6 +85,18 @@ nav ul{
     color: black;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: auto 20%;
+    grid-gap: 70px;
+    background-color: white;
+    padding: 10px;
+}
+
+.grid section{
+    background-color: gainsboro;
+}
+
 #footer{
     position: absolute;
     top:1400px;
