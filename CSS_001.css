@@ -21,7 +21,7 @@ nav ul{
     z-index: 5;        
     }
 
-#nav a{
+#nav ul a{
     float: left;    
     list-style: none;        
     margin-right: 30px;
@@ -35,8 +35,7 @@ nav ul{
     -webkit-transition-duration: .3s;
     transition-duration: .3s;
     -webkit-transition-property: background-color,opacity;
-    transition-property: background-color,opacity;
-    
+    transition-property: background-color,opacity;    
 }
 
 #nav a:hover {
@@ -121,12 +120,7 @@ nav ul{
     opacity: 0.5;
 }
 
-@media(max-width:981px){    
-    
-    nav ul{
-    list-style: none;   
-    display: none;
-    }
+@media(max-width:981px){           
     
     #header{  
     
@@ -142,6 +136,34 @@ nav ul{
     z-index: 5;        
     }
     
+    #nav button{        
+        float: right;    
+        list-style: none;        
+        margin-right: 30px;
+        font-size: 18px;
+        z-index: 10;
+        text-decoration: none;
+        color: darkkhaki;
+        background-color: darkviolet;
+        }
+    
+    #nav a{
+        display: none;
+        clear: both; 
+        list-style: none;        
+        margin-right: 30px;
+        font-size: 18px;
+        z-index: 10;
+        text-decoration: none;
+        color: darkkhaki; 
+
+        border-radius: 25px;
+        padding: 10px 15px;
+        -webkit-transition-duration: .3s;
+        transition-duration: .3s;
+        -webkit-transition-property: background-color,opacity;
+        transition-property: background-color,opacity;    
+        }     
     
 }
 
