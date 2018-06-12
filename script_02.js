@@ -1,4 +1,4 @@
 function showMenu() {
-    var y = document.querySelectorAll("#nav a");
+    var y = document.getElementById("switcher");
     y.style.display = "block";      
 }
