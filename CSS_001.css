@@ -149,6 +149,7 @@ nav ul{
     z-index: 5;        
     }
     
+/*
     #nav button{
         display: block;
         float: right;    
@@ -160,6 +161,20 @@ nav ul{
         color: darkkhaki;
         background-color: darkviolet;
         }
+*/
+    
+    #desappearButton{
+        display: block;
+        float: right;    
+        list-style: none;        
+        margin-right: 30px;
+        font-size: 18px;
+        z-index: 10;
+        text-decoration: none;
+        color: darkkhaki;
+        background-color: darkviolet;
+        }
+    
     
     #nav a{        
         clear: both; 
