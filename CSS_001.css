@@ -26,7 +26,7 @@ nav ul{
     
     float: left;    
     list-style: none;        
-    margin-right: 30px;
+    margin-right: 27px;
     font-size: 18px;
     z-index: 10;
     text-decoration: none;
@@ -149,7 +149,6 @@ nav ul{
     z-index: 5;        
     }
     
-/*
     #nav button{
         display: block;
         float: right;    
@@ -161,9 +160,9 @@ nav ul{
         color: darkkhaki;
         background-color: darkviolet;
         }
-*/
     
-    #desappearButton{
+/*
+    #disappearButton{
         display: block;
         float: right;    
         list-style: none;        
@@ -174,6 +173,7 @@ nav ul{
         color: darkkhaki;
         background-color: darkviolet;
         }
+*/
     
     
     #nav a{        
@@ -193,7 +193,14 @@ nav ul{
         transition-property: background-color,opacity;    
         }  
     
+/*
     #switcher{
+        list-style: none;
+        display: none;
+        }
+*/
+    
+     #nav ul{
         list-style: none;
         display: none;
         }
