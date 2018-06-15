@@ -83,8 +83,9 @@ nav ul{
 .titles{   
     
     border-right-color: darksalmon;
-    position: absolute;    
-    top:550px;    
+    position: relative;    
+    top:550px;
+    clear: both;
 }
 
 .titles h3{
@@ -114,8 +115,8 @@ nav ul{
 }
 
 #footer{
-    position: absolute;
-    top:1400px;
+    position: relative;
+    top:550px;
     left: 0;
     right: 0;
     padding-top: 30px;
