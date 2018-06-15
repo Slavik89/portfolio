@@ -114,6 +114,10 @@ nav ul{
     background-color: gainsboro;
 }
 
+section li{
+    text-align: justify;
+}
+
 #footer{
     position: relative;
     top:550px;
