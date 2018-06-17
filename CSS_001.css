@@ -250,6 +250,19 @@ section li{
     }
 */
     
+/*
+    #without_list_style li{
+        margin-bottom: 50px;    
+    }
+*/
+    
+    section h3>img{
+        height: 100px;
+        width; 100px;
+        border-radius: 50%;        
+    }  
+    
+   
 }
 
 
