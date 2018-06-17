@@ -223,6 +223,33 @@ section li{
         margin-right: 10px;
     }
     
+/*
+    div section: last-child{
+        position: relative;    
+        top:550px;
+        clear: both;
+    }
+*/
+    
+    .grid{
+        display: block;
+    }
+    
+    .grid section{
+        background-color: gainsboro;
+        position: relative;            
+        clear: both;
+        margin-bottom: 50px;
+    }
+    
+/*
+    .grid section: last-child{
+        background-color: gainsboro;
+        position: relative;            
+        clear: both;        
+    }
+*/
+    
 }
 
 
