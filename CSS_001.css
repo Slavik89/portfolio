@@ -22,11 +22,18 @@ nav ul{
     z-index: 5;        
     }
 
-#nav a{
-    
+#main-menu-container{
+    width: 100%;
+/*    margin: 0 auto;*/
+    margin-right: auto;    
+}
+
+
+nav a{    
+   
     float: left;    
     list-style: none;        
-    margin-right: 27px;
+/*    margin: 27px;*/
     font-size: 18px;
     z-index: 10;
     text-decoration: none;
@@ -40,12 +47,12 @@ nav ul{
     transition-property: background-color,opacity;    
 }
 
-#nav a:hover {    
+nav a:hover {    
     background-color: rgba(255,255,255,.1);
     opacity: 1;           
 }
 
-#nav button{  
+nav button{  
     display: none;
     float: right;    
     list-style: none;        
