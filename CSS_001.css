@@ -184,15 +184,12 @@ section h3>img{
         background-color: darkviolet;
         }      
     
-    #nav a{        
-        clear: both; 
+    #nav a{      
         list-style: none;        
-        margin-bottom: 60px;        
         font-size: 4vh;
         z-index: 10;
         text-decoration: none;
         color: darkkhaki; 
-
         border-radius: 25px;
         padding: 10px 15px;
         -webkit-transition-duration: .3s;
@@ -203,8 +200,7 @@ section h3>img{
     
     
      #nav ul{
-        list-style: none;
-        display: none;        
+        list-style: none;                
         }
     
     #nav img{
@@ -229,9 +225,15 @@ section h3>img{
     
     section h3>img{
         height: 100px;
-        width; 100px;
+        width: 100px;
         border-radius: 50%;        
-    }            
+    } 
+    
+    #main-menu-container{
+        display: none;
+        flex-direction: column;
+        height: calc(100vh - 120px);       
+        }
 }
 
 
