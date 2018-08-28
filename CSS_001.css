@@ -18,7 +18,7 @@ nav ul{
     position: fixed;
     right: 0;
     top: 0;
-    background-color: #1d3763;
+    background-color: cadetblue;
     z-index: 5;        
     }
 
@@ -166,7 +166,7 @@ section h3>img{
     position: fixed;
     right: 0;
     top: 0;
-    background-color: #1d3763;
+    background-color: cadetblue;
     z-index: 5;        
     }
     
