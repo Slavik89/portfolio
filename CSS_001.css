@@ -83,7 +83,7 @@ nav button{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;    
+    background-size: cover;     
 }
 
 .titles{   
@@ -99,6 +99,10 @@ nav button{
     font-size: 26px;
     padding-left: 40px;
     color: orange;
+}
+
+.titles h3:nth-of-type(odd){    
+    color: cadetblue;
 }
 
 .titles li{
