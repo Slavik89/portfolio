@@ -83,7 +83,9 @@ nav button{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;     
+    background-size: cover;
+    background-position: center top;
+    
 }
 
 .titles{   
@@ -108,8 +110,24 @@ nav button{
 .titles li{
     font-family: ProximaNova,Arial,Helvetica,sans-serif;
     font-size: 14px;
-    padding-left: 20px;
+    padding: 10px 30px 10px 20px;
     color: black;
+}
+
+h3 li a:link{
+    color: blue;
+}
+
+h3 li a:visited{
+    color: blue;
+}
+
+h3 li a:hover{
+    color: silver;
+}
+
+h3 li a:active{
+    color: gold;
 }
 
 .grid{
@@ -157,6 +175,23 @@ section h3>img{
         width; 100px;
         border-radius: 50%;        
     }
+
+section>h3>a>img{
+    width: 20px;
+    height: 20px;
+    float: right;   
+    padding-right: 20px;
+    position: relative;
+    
+    animation: moving .5s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes moving{
+    0% {top: -10px;}
+    50% {top: 10px;}
+    100% {top: -10px;}
+}
 
 @media(max-width:981px){           
     
